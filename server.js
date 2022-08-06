@@ -9,7 +9,6 @@ const port = 3000;
 
 const path = require("path");
 const api = require("./server/routes/api");
-//const city = require("./modules/city");
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "dist")));
 app.use(express.static(path.join(__dirname, "node_modules")));
